@@ -19,7 +19,7 @@ rxAndroidVersion = "3.0.2"
 daggerVersion = "2.46.1"
 
 # Utils
-debugDrawerVersion = "0.9.0"
+debugDrawerVersion = "master-SNAPSHOT"
 timberVersion = "5.0.1"
 scalpelVersion = "1.1.2"
 glideVersion = "4.13.2"

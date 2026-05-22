@@ -2,6 +2,8 @@ pluginManagement {
     repositories {
         google()
         gradlePluginPortal()
+        maven { setUrl("https://repo1.maven.org/maven2/")}
+        maven { setUrl("https://maven.aliyun.com/repository/gradle-plugin")}
     }
 }
 
@@ -9,7 +11,12 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven {
+            url = uri("https://oss.sonatype.org/content/repositories/snapshots")
+        }
         maven(url = "https://jitpack.io")
+        maven { setUrl("https://repo1.maven.org/maven2/")}
+        maven { setUrl("https://maven.aliyun.com/repository/gradle-plugin")}
     }
 }
 
